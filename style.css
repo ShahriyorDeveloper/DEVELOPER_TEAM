@@ -18,7 +18,6 @@ body {
     margin: 250px auto;
     padding: 20px;
 }
-<<<<<<< HEAD
 /*Jasur Sadullayev*/
 .sadullayev {
 max-width: 1000px;
@@ -116,8 +115,7 @@ text-align: right;
 }
 .limon .rasm{
     width: 350px;
-=======
-
+}
 .norboyev .home {
     display: flex;
     max-width: 900px;
@@ -175,5 +173,4 @@ width: 550;
     border-radius: 5px;
     color: white;
     background-color: palevioletred;
->>>>>>> 34dcdaffcc556b7d0c5833cf35598bfc40353dc6
 }
