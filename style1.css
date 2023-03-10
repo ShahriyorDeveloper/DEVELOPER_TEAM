@@ -1,19 +1,21 @@
 .eldor {
     display: flex;
-    height: 700px;
+    height: auto;
+    flex-wrap: wrap;
     background-color: rgba(240, 168, 240, 0.486);
 }
 
 .eldor .kak {
     display: flex;
     width: 900px;
+    flex-wrap: wrap;
     margin: auto;
     justify-content: space-between;
     margin-top: 100px;
 }
 
 .eldor .kak .ddiv1 {
-    width: 500px;
+    max-width: 500px;
     margin-top: 50px;
 }
 
@@ -56,7 +58,7 @@
 }
 
 .ip .mm input {
-    width: 400px;
+    max-width: 400px;
     border-color: white;
     background-color: rgb(215, 202, 202);
     height: 50px;
@@ -71,17 +73,18 @@
 }
 
 footer {
+    flex-wrap: wrap;
     background-color: black;
     max-width: 1540px;
     border: 1px solid greenyellow;
-    height: 300px;
+    height: auto;
 }
 
 footer .ii {
     display: flex;
     padding-top: 40px;
     color: white;
-    width: 900px;
+    max-width: 900px;
     margin: auto;
     justify-content: space-between;
 }
@@ -96,8 +99,30 @@ footer .katta {
     color: white;
     justify-content: space-between;
     display: flex;
-    width: 900px;
+    flex-wrap: wrap;
+    max-width: 900px;
     margin: auto;
+}
+
+footer .katta .bir {
+    flex-wrap: wrap;
+    width: calc(100% / 4);
+}
+
+@media screen and (max-width:900px) {
+    footer .katta .bir {
+        flex-wrap: wrap;
+        width: calc(100% / 2);
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    footer .katta .bir {
+        flex-wrap: wrap;
+        width: calc(100% / 1);
+        margin: auto;
+    }
 }
 
 footer .katta .bir .oz1 {
@@ -105,9 +130,17 @@ footer .katta .bir .oz1 {
     justify-content: space-between;
 }
 
+footer .katta .bir p {
+    flex-wrap: wrap;
+}
+
 footer .katta .bir .oz1 #q {
     background-color: blue;
     color: white;
+}
+
+footer .katta .bir ul {
+    flex-wrap: wrap;
 }
 
 footer .katta .bir .oz1 #e {
