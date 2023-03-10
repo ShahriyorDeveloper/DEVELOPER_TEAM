@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
-body{
+
+body {
     font-size: 16px;
 }
+
 .ruslan {
     text-align: center;
     background: red;
@@ -15,4 +17,163 @@ body{
     width: 500px;
     margin: 250px auto;
     padding: 20px;
+}
+<<<<<<< HEAD
+/*Jasur Sadullayev*/
+.sadullayev {
+max-width: 1000px;
+margin: auto;
+text-align: center;
+}
+.sadullayev h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.sadullayev ul{
+display:flex;
+margin: auto    ;
+max-width: 700px;
+flex-wrap: wrap;
+}
+.sadullayev ul li{
+    margin:30px 10px ;
+    color: #555;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.sadullayev ul li a:hover{
+    color: black;
+}
+.karam{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.karam .foto img{
+    max-width: 100%;
+}
+.karam .foto{
+    max-width: 400px;
+    height: 350px;
+}
+.karam .malumot{
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.karam .malumot h3{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.karam .malumot p{
+    line-height: 40px;
+    color: #555;
+}
+.karam .malumot i{
+    font-size: 25px;
+}
+.karam .malumot button{
+    width: 150px;
+    height: 37px;
+    background-color: #D64374;
+    border: 0px;
+    border-radius: 5px;
+}
+.limon{
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.limon .yozuv {
+width: 400px;
+height: auto;
+text-align: right;
+}
+.limon .yozuv h3{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.limon .yozuv p{
+    line-height: 40px;
+    color: #555;
+}
+.limon .yozuv i{
+    font-size: 25px;
+}
+.limon .yozuv button{
+    width: 150px;
+    height: 37px;
+    background-color: #D64374;
+    border: 0px;
+    border-radius: 5px;
+}
+.limon .rasm img{
+    max-width: 100%;
+}
+.limon .rasm{
+    width: 350px;
+=======
+
+.norboyev .home {
+    display: flex;
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #E5E5E5;
+    height:auto;
+    align-items: center;
+
+}
+
+.norboyev .home p {
+    max-width: 180px;
+    text-align: center;
+}
+
+.norboyev .home img {
+    margin: auto;
+    width: 60px;
+
+}
+
+.norboyev .rek2 {
+    margin: auto;
+    height:auto;
+
+
+}
+
+.norboyev .rek2 p {
+    max-width: 370px;
+    
+}
+
+.norboyev .rek2 h1 {
+    max-width: 200px;
+}
+
+.norboyev .ega {
+    max-width: 1400px;
+    background-color: #F8EDF0;
+    display: flex;
+flex-wrap: wrap;
+}
+
+.norboyev .ega img {
+ max-width: 100%;
+margin: auto;
+width: 550;
+}
+.norboyev .ega button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: palevioletred;
+>>>>>>> 34dcdaffcc556b7d0c5833cf35598bfc40353dc6
 }
