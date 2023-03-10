@@ -1,0 +1,144 @@
+.eldor {
+    display: flex;
+    height: 700px;
+    background-color: rgba(240, 168, 240, 0.486);
+}
+
+.eldor .kak {
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.eldor .kak .ddiv1 {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.eldor .kak .ddiv1 .ll {
+    display: flex;
+}
+
+.eldor .kak .ddiv1 .ll i {
+    background-color: white;
+    color: palevioletred;
+}
+
+.eldor .kak .ddiv .ll {
+    display: flex;
+}
+
+.eldor .kak .ddiv1 .ana {
+    display: flex;
+    align-items: center;
+}
+
+.ip {
+    max-width: 1540px;
+    height: 400px;
+    border: 1px solid green;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.ip p {
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.ip .mm {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ip .mm input {
+    width: 400px;
+    border-color: white;
+    background-color: rgb(215, 202, 202);
+    height: 50px;
+}
+
+.ip .mm button {
+    width: 100px;
+    background-color: palevioletred;
+    color: white;
+    border-color: white;
+    height: 50px;
+}
+
+footer {
+    background-color: black;
+    max-width: 1540px;
+    border: 1px solid greenyellow;
+    height: 300px;
+}
+
+footer .ii {
+    display: flex;
+    padding-top: 40px;
+    color: white;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+footer .ii p {
+    margin-top: 40px;
+    margin-right: 210px;
+}
+
+footer .katta {
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+footer .katta .bir .oz1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .katta .bir .oz1 #q {
+    background-color: blue;
+    color: white;
+}
+
+footer .katta .bir .oz1 #e {
+    color: white;
+    background-color: blue;
+}
+
+footer .katta .bir .oz1 #r {
+    color: white;
+    background-color: blue;
+}
+
+footer .katta .bir .oz1 #w {
+    color: white;
+    background-color: rgb(222, 100, 100);
+}
+
+footer .katta .bir input {
+    width: 200px;
+    border: 1px solid purple;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+footer .katta .bir button {
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 80px;
+    background-color: purple;
+    color: white;
+    height: 40px;
+}
