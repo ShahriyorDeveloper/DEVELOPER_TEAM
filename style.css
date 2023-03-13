@@ -156,7 +156,7 @@ text-align: right;
 }
 
 .norboyev .ega {
-    max-width: 1400px;
+    max-width: 100%;
     background-color: #F8EDF0;
     display: flex;
 flex-wrap: wrap;
